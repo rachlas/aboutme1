@@ -1,0 +1,78 @@
+@media (max-width: 576px) {
+  body {
+    width: 80%;
+  }
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  line-height: 1.5;
+  font-size: 22px;
+}
+
+body {
+    background-color: #000000c7;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.WelkomstBericht {
+  text-align: center;
+  padding: 5% 0% 3%;
+}
+
+.container {
+  max-width: 60%;
+  max-height: 600px;
+  margin: 0 auto;
+}
+
+.custom-img {
+  display: block;
+  margin: auto;
+  width: auto;
+  height: 60%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.OverMij {
+  text-align: center;
+  padding: 5% 25% 3%;
+}
+
+form {
+  padding: 5% 0% 3%;
+}
+
+.row {
+  padding-bottom: 1%;
+}
+
+footer {
+  height: 200px;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  font-weight: bold;
+  margin: 0;
+  left: 0;
+  bottom: 0;
+}
+
+footer p {
+  margin: 0;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
